@@ -35,5 +35,14 @@
 
 ---
 
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
+
 #### Create by **[Alexone Develop](https://t.me/alexoneDevelop)**
 
